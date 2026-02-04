@@ -13,6 +13,9 @@ Os dados são obtidos a partir do arquivo **`ralie-usina.csv`**, disponibilizado
 
 ---
 
+## Link do Frontend 
+[Frontend](https://github.com/Vitorialuz229/desafio_bolt_geradores_frontend)
+
 ## Tecnologias Utilizadas
 
 - **Kotlin**
