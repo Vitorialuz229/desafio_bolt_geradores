@@ -4,6 +4,7 @@ import com.github.vitorialuz229.desafio.ralie.client.RalieCsvHttpClient
 import com.github.vitorialuz229.desafio.ralie.entity.RalieEntity
 import com.github.vitorialuz229.desafio.ralie.mapper.RalieCsvMapper
 import com.github.vitorialuz229.desafio.ralie.repository.RalieCopyRepository
+import com.github.vitorialuz229.desafio.ralie.repository.RalieRepository
 import com.github.vitorialuz229.desafio.ralie.util.DataBufferLineUtil.toFluxUtf8
 import org.springframework.stereotype.Service
 import reactor.core.publisher.Mono
@@ -13,7 +14,8 @@ import java.nio.file.Files
 @Service
 class RalieService(
     private val client: RalieCsvHttpClient,
-    private val ralieCopyRepository: RalieCopyRepository
+    private val ralieCopyRepository: RalieCopyRepository,
+    private val ralieRepository: RalieRepository
 ) {
 
     fun ingest(chunkSize: Int = 10000): Mono<Void> {
@@ -68,4 +70,12 @@ class RalieService(
         println("COPY concluído para chunk $index: ${chunk.size} registros")
         tempFile.delete()
     }
+
+    fun buscarTop5MaioresProdutores(): List<RalieEntity> =
+        ralieRepository
+            .findTop5ByPotenciaOutorgadaIsNotNullOrderByPotenciaOutorgadaDesc()
+            .takeIf { it.isNotEmpty() }
+            ?: throw IllegalStateException(
+                "Nenhum produtor encontrado com potência outorgada"
+            )
 }
