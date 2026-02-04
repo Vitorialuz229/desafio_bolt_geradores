@@ -13,8 +13,11 @@ Os dados são obtidos a partir do arquivo **`ralie-usina.csv`**, disponibilizado
 
 ---
 
-## Link do Frontend 
-[Frontend](https://github.com/Vitorialuz229/desafio_bolt_geradores_frontend)
+## Acesse o Frontend
+
+Você pode acessar o código-fonte do frontend do projeto no GitHub clicando [aqui](https://github.com/Vitorialuz229/desafio_bolt_geradores_frontend).
+
+Explore o repositório para ver como a aplicação foi desenvolvida com Angular, TailwindCSS e RxJS!
 
 ## Tecnologias Utilizadas
 
