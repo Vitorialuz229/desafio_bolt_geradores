@@ -1,4 +1,4 @@
-[![Switch to English](https://img.shields.io/badge/Switch_to-English-800080?style=for-the-badge)](https://github.com/Vitorialuz229/desafio_bolt_geradores/main/README-EN.md)
+[![Switch to English](https://img.shields.io/badge/Switch_to-English-800080?style=for-the-badge)](https://github.com/Vitorialuz229/desafio_bolt_geradores/blob/main/README-EN.md)
 
 # Desafio Bolt - Geradores
 
