@@ -13,6 +13,12 @@ The data is obtained from the **`ralie-usina.csv`** file, available on ANEEL’s
 
 ---
 
+## Access the Frontend
+
+You can view the frontend source code of the project on GitHub by clicking [here](https://github.com/Vitorialuz229/desafio_bolt_geradores_frontend).
+
+Explore the repository to see how the application was built using Angular, TailwindCSS, and RxJS!
+
 ## Technologies Used
 
 - **Kotlin**
