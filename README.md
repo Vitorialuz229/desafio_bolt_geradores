@@ -1,6 +1,6 @@
 [![Switch to English](https://img.shields.io/badge/Switch_to-English-800080?style=for-the-badge)](https://github.com/Vitorialuz229/desafio_bolt_geradores/blob/main/README-EN.md)
 
-# Desafio Bolt - Geradores
+# Desafio - Geradores
 
 ## Descrição
 Projeto desenvolvido como **desafio técnico**, cujo objetivo é implementar um **serviço backend** responsável por:
