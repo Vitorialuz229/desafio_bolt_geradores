@@ -1,6 +1,6 @@
 [![Switch to Portuguese](https://img.shields.io/badge/Switch_to-Portuguese-800080?style=for-the-badge)](https://github.com/Vitorialuz229/desafio_bolt_geradores/blob/main/README.md)
 
-# Bolt Challenge – Power Generators
+# Challenge – Power Generators
 
 ## Description
 This project was developed as a **technical challenge**, aiming to implement a **backend service** responsible for:
